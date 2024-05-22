@@ -1,6 +1,7 @@
 # Nail Salon | Website
 
 ## Project Description
+
 This Nail Salon website project aims to create an engaging, informative, and visually appealing online presence for the salon. By utilizing modern web technologies such as Vite, TypeScript, Bootstrap, and AOS, the website will offer a smooth user experience with appealing animations and a responsive design. The site will effectively communicate the salon's offerings and advantages, making it easier for customers to connect and engage with the salon online.
 
 This project utilizes a variety of tools and libraries to ensure an efficient development process and high-quality code. Below is a list of the main tools and libraries used in this project:
@@ -41,7 +42,6 @@ This project utilizes a variety of tools and libraries to ensure an efficient de
 - **AOS**: CSS/JS based animation on scroll library.
 - **autoprefixer**: A tool to parse CSS and add vendor prefixes to CSS rules using values from "Can I Use".
 - **modern-normalize**: Normalize browsers' default CSS style.
-
 
 ## Installation and Running
 
