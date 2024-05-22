@@ -6,5 +6,18 @@ $spinner-animation-speed: 1.5s;
 // Colors
 $primary: #fc563f;
 $secondary: #ffd687;
+$dark: #332d28;
 $text-light: #5b5958;
 $text-dark: #332d28;
+$link-color: $text-dark;
+$headings-color: $text-dark;
+$body-secondary-bg: #f3eee9;
+
+// Fonts
+$font-family-base: 'Nunito Sans 10pt';
+$font-weight-base: normal;
+$font-style-base: normal;
+$headings-font-family: 'Rufina';
+$headings-font-style: normal;
+$headings-font-weight: normal;
+$headings-color: $text-dark;

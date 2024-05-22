@@ -20,3 +20,16 @@ window.addEventListener('load', () => {
     coverContainer.style.display = 'block';
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const navbarToggler = document.querySelector('.navbar-toggler') as HTMLElement;
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+        navbarToggler.click();
+      }
+    });
+  });
+});
