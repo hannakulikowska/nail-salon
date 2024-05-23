@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: {
         '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+        '~bootstrap-icons': path.resolve(__dirname, 'node_modules/bootstrap-icons'),
         '~modern-normalize': path.resolve(__dirname, 'node_modules/modern-normalize'),
         '~aos': path.resolve(__dirname, 'node_modules/aos'),
       },
