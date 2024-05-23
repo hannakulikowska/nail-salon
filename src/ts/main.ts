@@ -2,6 +2,7 @@ import '../scss/style.scss';
 import 'bootstrap';
 import 'aos';
 import Aos from 'aos';
+import { Ticker } from './ticker';
 
 /* Animation on scroll */
 
@@ -32,4 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  /** Ticker */
+
+  new Ticker('.ticker', '.ticker-text');
 });

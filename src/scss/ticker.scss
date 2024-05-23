@@ -1,0 +1,23 @@
+.ticker {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+.ticker-text {
+  white-space: nowrap;
+  animation: ticker 1s infinite linear;
+}
+
+@media (hover: hover) {
+  .ticker:hover .ticker-text {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes ticker {
+  100% {
+    transform: translateX(-100%);
+  }
+}
