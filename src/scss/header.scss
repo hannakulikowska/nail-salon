@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  background-color: $body-secondary-bg;
+  background-color: transparent;
 }
 
 // Hamburger
@@ -25,9 +25,14 @@ button.custom-toggler[aria-expanded='true'] {
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
-  background-color: transparent;
+  padding: 20px 0 20px 20px;
   cursor: pointer;
+}
+
+#navmenu.navbar-collapse.collapse.show,
+#navmenu.navbar-collapse.collapsing {
+  background-color: $body-secondary-bg;
+  z-index: 10;
 }
 
 .line {

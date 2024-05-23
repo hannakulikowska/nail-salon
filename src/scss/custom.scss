@@ -14,10 +14,17 @@ $headings-color: $text-dark;
 $body-secondary-bg: #f3eee9;
 
 // Fonts
-$font-family-base: 'Nunito Sans 10pt';
+$font-family-base: 'Nunito Sans 10pt', sans-serif;
 $font-weight-base: normal;
 $font-style-base: normal;
-$headings-font-family: 'Rufina';
+$headings-font-family: 'Courgette', sans-serif;
 $headings-font-style: normal;
 $headings-font-weight: normal;
 $headings-color: $text-dark;
+$display-font-weight: 400;
+
+// Buttons
+$input-btn-padding-x: 1rem;
+$input-btn-padding-y: 1.5rem;
+$input-btn-padding-x-lg: 1.25rem;
+$input-btn-padding-y-lg: 2.5rem;

@@ -28,9 +28,9 @@
     <!-- App -->
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
       <!-- Header -->
-      <header>
+      <header class="w-100 position-absolute bg-transparent">
         <nav class="navbar navbar-expand-sm py-3">
-          <div class="container-fluid">
+          <div class="container">
             <a
               href="/"
               class="navbar-brand">
@@ -41,7 +41,7 @@
             </a>
 
             <button
-              class="navbar-toggler custom-toggler"
+              class="navbar-toggler custom-toggler bg-transparent"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navmenu"
@@ -54,41 +54,48 @@
             </button>
 
             <div
-              class="collapse navbar-collapse"
+              class="collapse navbar-collapse bg-sm-transparent pt-4 pt-sm-0"
               id="navmenu">
-              <ul class="navbar-nav gap-2 gap-md-4 mt-4 mt-sm-0 mx-auto">
+              <ul class="navbar-nav w-100 justify-content-end gap-2 gap-md-4 mt-4 mt-sm-0">
                 <li class="nav-item text-center">
                   <a
-                    class="nav-link link-dark link-opacity-50-hover disabled"
-                    href="/">
+                    class="nav-link link-dark link-opacity-50-hover disabled link-opacity-50"
+                    href="/"
+                    aria-current="page"
+                    aria-disabled="true"
+                    tabindex="-1">
                     Główna
                   </a>
                 </li>
                 <li class="nav-item text-center">
                   <a
                     class="nav-link link-dark link-opacity-50-hover"
-                    href="#gallery">
+                    href="#gallery"
+                    tabindex="1">
                     Galeria
                   </a>
                 </li>
                 <li class="nav-item text-center">
                   <a
                     class="nav-link link-dark link-opacity-50-hover"
-                    href="#pricing">
+                    href="#pricing"
+                    tabindex="2">
                     Cennik
                   </a>
                 </li>
                 <li class="nav-item text-center">
                   <a
                     class="nav-link link-dark link-opacity-50-hover"
-                    href="#promotions">
+                    href="#promotions"
+                    tabindex="3">
                     Promocje
                   </a>
                 </li>
                 <li class="nav-item text-center mb-5 mb-sm-0">
                   <a
                     class="nav-link link-dark link-opacity-50-hover"
-                    href="#contact">
+                    href="#contact"
+                    tabindex="4">
                     Kontakt
                   </a>
                 </li>
@@ -97,6 +104,44 @@
           </div>
         </nav>
       </header>
+
+      <main class="h-100">
+        <section
+          id="intro"
+          class="bg-image text-light text-center text-sm-start h-100 p-0">
+          <div
+            class="mask h-100 w-100"
+            style="background-color: rgba(243, 238, 233, 0.7)">
+            <div class="container h-100 align-content-center">
+              <div class="col-lg-9 col-xl-8 pt-5">
+                <h1 class="display-1">Oczarowujące paznokcie na każdą chwilę</h1>
+                <p class="my-4 text-muted mb-5">
+                  Dbaj o swoje paznokcie i przeżywaj niezapomniane chwile z naszym profesjonalnym manicure. Nasze usługi
+                  są stworzone, abyś czuła się wyjątkowo każdego dnia, oferując najwyższą jakość i dbałość o każdy
+                  detal.
+                </p>
+                <div
+                  class="d-flex flex-column flex-sm-row gap-3 gap-sm-4 justify-content-center justify-content-sm-start align-items-center">
+                  <a
+                    type="button"
+                    class="btn btn-lg btn-primary text-uppercase rounded-5 fs-6"
+                    data-bs-toggle="modal"
+                    data-bs-target="#book">
+                    Book now
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-lg btn-secondary text-uppercase rounded-5 fs-6"
+                    data-bs-toggle="modal"
+                    data-bs-target="#servises">
+                    VIEW ALL SERVICES
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
 
     <script
