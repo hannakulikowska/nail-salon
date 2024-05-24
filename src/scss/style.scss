@@ -9,6 +9,10 @@
 @import 'ticker';
 @import '~aos/dist/aos';
 
+body {
+  overflow-x: hidden;
+}
+
 // Images
 
 .img-fluid {
