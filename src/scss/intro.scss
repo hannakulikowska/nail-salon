@@ -13,34 +13,4 @@
   @include media-breakpoint-up(lg) {
     background-position: 35% 0;
   }
-
-  .btn-lg {
-    padding: $input-btn-padding-x $input-btn-padding-y;
-
-    @include media-breakpoint-up(lg) {
-      padding: $input-btn-padding-x-lg $input-btn-padding-y-lg;
-    }
-  }
-
-  .btn-primary {
-    color: $white;
-
-    @media (hover: hover) {
-      &:hover {
-        background-color: transparent;
-        color: $primary;
-      }
-    }
-  }
-
-  .btn-secondary {
-    color: $text-dark;
-    @media (hover: hover) {
-      &:hover {
-        background-color: $primary;
-        color: $white;
-        border-color: $primary;
-      }
-    }
-  }
 }
