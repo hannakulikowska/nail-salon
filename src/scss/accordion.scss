@@ -1,0 +1,11 @@
+.accordion-button:not(.collapsed) {
+  background-color: $light;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  margin-left: 0.5rem;
+}
