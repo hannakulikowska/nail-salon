@@ -3,12 +3,7 @@ import 'bootstrap';
 import 'aos';
 import Aos from 'aos';
 import { Ticker } from './ticker';
-
-/* Animation on scroll */
-
-Aos.init({
-  once: false,
-});
+import { FormValidator } from './formValidator';
 
 /* Preloader */
 
@@ -35,6 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   /** Ticker */
-
   new Ticker('.ticker', '.ticker-text');
+
+  /** Form Validation */
+  new FormValidator('.needs-validation');
+
+  /* Animation on scroll */
+  Aos.init({
+    once: false,
+  });
 });

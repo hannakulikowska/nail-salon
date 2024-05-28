@@ -461,6 +461,80 @@
             </div>
           </div>
         </section>
+
+        <section
+          id="appointment"
+          class="py-5 bg-info">
+          <div class="container">
+            <form
+              class="row gx-3 gy-4 gy-lg-0 needs-validation justify-content-center align-items-center flex-wrap"
+              novalidate>
+              <div class="col-lg text-center text-lg-start">
+                <input
+                  type="text"
+                  class="form-control-sm w-75"
+                  id="name"
+                  placeholder="Imię"
+                  required />
+              </div>
+              <div class="col-lg text-center text-lg-start">
+                <input
+                  type="tel"
+                  class="form-control-sm w-75"
+                  id="tel"
+                  placeholder="Telefon"
+                  required />
+              </div>
+              <div class="col-lg text-center text-lg-start">
+                <input
+                  type="text"
+                  class="form-control-sm w-75"
+                  id="message"
+                  placeholder="Wiadomość"
+                  required />
+              </div>
+              <div class="col-lg text-center text-lg-end mt-5 mt-lg-0">
+                <button
+                  type="submit"
+                  class="btn btn-outline-dark rounded-pill px-5 py-3 text-uppercase">
+                  Wyślij wiadomość
+                </button>
+              </div>
+              <div class="col-12 my-0">
+                <div
+                  id="form-status"
+                  class="form-status"
+                  style="display: none"></div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section
+          id="video"
+          class="py-5 my-lg-5">
+          <div class="container">
+            <h2 class="display-4 mb-5 text-center">
+              Dołącz do naszych
+              <br />
+              zadowolonych klientów
+            </h2>
+            <video
+              class="w-100 h-auto rounded-pill"
+              poster="/src/img/poster.jpg"
+              autoplay
+              loop
+              muted
+              playsinline>
+              <source
+                src="/src/video/video.mp4"
+                type="video/mp4" />
+              <source
+                src="/src/video/video.webm"
+                type="video/webm" />
+            </video>
+          </div>
+        </section>
       </main>
     </div>
 

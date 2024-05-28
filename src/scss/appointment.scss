@@ -1,0 +1,22 @@
+#appointment {
+  input {
+    border: none;
+    border-bottom: 1px solid $dark;
+    outline: none;
+    background-color: transparent;
+  }
+
+  input: {
+    background-color: transparent !important;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    box-shadow: 0 0 0 1000px $info inset;
+    -webkit-text-fill-color: #333;
+  }
+
+  .error-messages {
+    color: $red-600;
+  }
+}

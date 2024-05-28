@@ -6,12 +6,14 @@ $spinner-animation-speed: 1.5s;
 // Colors
 $primary: #fc563f;
 $secondary: #ffd687;
+$info: #ebf8fb;
 $dark: #332d28;
 $text-light: #5b5958;
 $text-dark: #332d28;
 $link-color: $text-dark;
 $headings-color: $text-dark;
 $body-secondary-bg: #f3eee9;
+$red-500: $primary;
 
 // Fonts
 $font-family-base: 'Nunito Sans 10pt', sans-serif;
@@ -28,3 +30,6 @@ $input-btn-padding-x: 1rem;
 $input-btn-padding-y: 1.5rem;
 $input-btn-padding-x-lg: 1.25rem;
 $input-btn-padding-y-lg: 2.5rem;
+
+// Inputs
+$input-border-radius-sm: none;
