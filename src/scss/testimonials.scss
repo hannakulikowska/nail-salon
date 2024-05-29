@@ -1,0 +1,9 @@
+blockquote {
+  min-height: 240px;
+  user-select: none;
+  margin-bottom: 0;
+
+  @include media-breakpoint-up(md) {
+    min-height: 190px;
+  }
+}
